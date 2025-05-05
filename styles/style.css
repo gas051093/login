@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  background-image: url(/assets/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login__content {
+  background-color: beige;
+  border-radius: 25px;
+}
+.login__logo {
+  width: 300px;
+}
+.login__btn {
+  width: 80px;
+}
+.login__title {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
