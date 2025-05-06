@@ -28,13 +28,14 @@
                     <form action="submit" id="login" class="row gap-3 m-0 p-0">
                         <div class="input-group p-0">
                             <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
-                            <input id="in_user" type="text" class="form-control login__input" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+                            <input id="in_user" type="text" class="form-control login__input" placeholder="Usuario" aria-label="Username" required>
                         </div>
                          <div class="input-group p-0">
                             <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-                            <input id="in_pass" type="password" class="form-control login__input" placeholder="Contraseña" aria-label="Userpass" aria-describedby="basic-addon1">
+                            <input id="in_pass" type="password" class="form-control login__input" placeholder="Contraseña" aria-label="Userpass" required>
                         </div>
                         <div class="row m-0 p-0 gap-2 justify-content-center">
+                            <p class="modal_error text-center d-none" id="modal_error">Datos incorrectos</p>
                             <button type="submit" class="row btn btn-primary login__btn">Login</button>
                         </div>
                     </form>

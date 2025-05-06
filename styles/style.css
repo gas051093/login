@@ -32,7 +32,6 @@
   animation-fill-mode: both;
 }
 .login__content {
-  background-image: url(/assets/loginbg.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;

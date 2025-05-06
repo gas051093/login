@@ -5,7 +5,7 @@
     user-select: none;
     @include scale_animation(0.6s);
     &__content{
-        background-image: url(/assets/loginbg.jpg);
+        // background-image: url(/assets/loginbg.jpg);
         background-position: center;
         background-size: cover;
         border-radius: 15px;
