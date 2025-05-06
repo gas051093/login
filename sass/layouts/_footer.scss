@@ -1,0 +1,15 @@
+.foot{
+    user-select: none;
+    &__content{
+        & img{
+            width: 90px;
+        }
+    }
+    &__text{
+        color: rgb(211, 211, 211);
+        &--nombre{
+            font-weight: bold;
+            color: rgb(1, 90, 167);
+        }
+    }
+}

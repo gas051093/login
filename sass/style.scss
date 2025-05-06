@@ -1,3 +1,6 @@
-@use './config/_reset';
-@use './layouts/_content_page';
-@use './layouts/_login';
+@use './config/reset';
+@use './layouts/content_page';
+@use './layouts/login';
+@use './layouts/footer';
+
+
